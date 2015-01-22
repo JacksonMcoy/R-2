@@ -3,7 +3,7 @@ library(shiny)
 library(ggplot2)
 library(plyr)
 
-Air <- read.csv("../AirPassengers.csv", sep = ",", header = TRUE)
+Air <- read.csv("AirPassengers.csv", sep = ",", header = TRUE)
 
 
 shinyServer(function(input,output){
